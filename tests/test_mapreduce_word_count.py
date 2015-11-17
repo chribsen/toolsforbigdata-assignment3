@@ -1,5 +1,4 @@
 from mrjob.job import MRJob
-import nltk
 from nltk.tokenize import RegexpTokenizer
 
 r = RegexpTokenizer(u'\w+|[^\w\s\ufeff]+')
